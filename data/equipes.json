@@ -1,0 +1,81 @@
+{
+  "competition": "Coupe du Monde 2026",
+  "format": "48 équipes, 12 groupes, top 2 + 8 meilleurs troisièmes qualifiés pour les 16es",
+  "source": "radarfoot.fr/coupe-du-monde-2026, relevé le 2026-06-10",
+  "emblemPattern": "https://radarfoot.fr/emblems/nations/<id>.png (à copier en local dans /public/emblems/)",
+  "kitNote": "Couleurs maillot = défauts éditoriaux raisonnables, à affiner équipe par équipe au build",
+  "groups": {
+    "A": [
+      { "id": "mexique", "name": "Mexique", "kit": { "primary": "#006847", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "afrique-du-sud", "name": "Afrique du Sud", "kit": { "primary": "#FFB612", "secondary": "#007A4D", "text": "#1A1A1A" } },
+      { "id": "coree-du-sud", "name": "Corée du Sud", "kit": { "primary": "#E6002D", "secondary": "#0B0B0B", "text": "#FFFFFF" } },
+      { "id": "tchequie", "name": "Tchéquie", "kit": { "primary": "#D7141A", "secondary": "#11457E", "text": "#FFFFFF" } }
+    ],
+    "B": [
+      { "id": "canada", "name": "Canada", "kit": { "primary": "#C8102E", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "bosnie-herzegovine", "name": "Bosnie-Herzégovine", "kit": { "primary": "#002F6C", "secondary": "#FECB00", "text": "#FFFFFF" } },
+      { "id": "qatar", "name": "Qatar", "kit": { "primary": "#8A1538", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "suisse", "name": "Suisse", "kit": { "primary": "#DA291C", "secondary": "#FFFFFF", "text": "#FFFFFF" } }
+    ],
+    "C": [
+      { "id": "bresil", "name": "Brésil", "kit": { "primary": "#FFDC02", "secondary": "#009C3B", "text": "#002776" } },
+      { "id": "maroc", "name": "Maroc", "kit": { "primary": "#C1272D", "secondary": "#006233", "text": "#FFFFFF" } },
+      { "id": "haiti", "name": "Haïti", "kit": { "primary": "#00209F", "secondary": "#D21034", "text": "#FFFFFF" } },
+      { "id": "ecosse", "name": "Écosse", "kit": { "primary": "#003078", "secondary": "#FFFFFF", "text": "#FFFFFF" } }
+    ],
+    "D": [
+      { "id": "etats-unis", "name": "États-Unis", "kit": { "primary": "#FFFFFF", "secondary": "#1F2742", "text": "#1F2742" } },
+      { "id": "paraguay", "name": "Paraguay", "kit": { "primary": "#D52B1E", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "australie", "name": "Australie", "kit": { "primary": "#FFCD00", "secondary": "#00843D", "text": "#1A1A1A" } },
+      { "id": "turquie", "name": "Turquie", "kit": { "primary": "#E30A17", "secondary": "#FFFFFF", "text": "#FFFFFF" } }
+    ],
+    "E": [
+      { "id": "allemagne", "name": "Allemagne", "kit": { "primary": "#FFFFFF", "secondary": "#000000", "text": "#000000" } },
+      { "id": "curacao", "name": "Curaçao", "kit": { "primary": "#002B7F", "secondary": "#F9E814", "text": "#FFFFFF" } },
+      { "id": "cote-divoire", "name": "Côte d'Ivoire", "kit": { "primary": "#FF8200", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "equateur", "name": "Équateur", "kit": { "primary": "#FFDD00", "secondary": "#034EA2", "text": "#1A1A1A" } }
+    ],
+    "F": [
+      { "id": "pays-bas", "name": "Pays-Bas", "kit": { "primary": "#F36C21", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "japon", "name": "Japon", "kit": { "primary": "#1A2B6B", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "suede", "name": "Suède", "kit": { "primary": "#FFCD00", "secondary": "#005293", "text": "#1A1A1A" } },
+      { "id": "tunisie", "name": "Tunisie", "kit": { "primary": "#E70013", "secondary": "#FFFFFF", "text": "#FFFFFF" } }
+    ],
+    "G": [
+      { "id": "belgique", "name": "Belgique", "kit": { "primary": "#E30613", "secondary": "#000000", "text": "#FFFFFF" } },
+      { "id": "egypte", "name": "Égypte", "kit": { "primary": "#CE1126", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "iran", "name": "Iran", "kit": { "primary": "#FFFFFF", "secondary": "#239F40", "text": "#1A1A1A" } },
+      { "id": "nouvelle-zelande", "name": "Nouvelle-Zélande", "kit": { "primary": "#FFFFFF", "secondary": "#000000", "text": "#000000" } }
+    ],
+    "H": [
+      { "id": "espagne", "name": "Espagne", "kit": { "primary": "#AA151B", "secondary": "#F1BF00", "text": "#FFFFFF" } },
+      { "id": "cap-vert", "name": "Cap-Vert", "kit": { "primary": "#003893", "secondary": "#CF2027", "text": "#FFFFFF" } },
+      { "id": "arabie-saoudite", "name": "Arabie saoudite", "kit": { "primary": "#FFFFFF", "secondary": "#006C35", "text": "#006C35" } },
+      { "id": "uruguay", "name": "Uruguay", "kit": { "primary": "#7BB1DD", "secondary": "#FFFFFF", "text": "#1A1A1A" } }
+    ],
+    "I": [
+      { "id": "france", "name": "France", "radarfootPage": "/equipe-de-france", "kit": { "primary": "#1E2A4A", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "senegal", "name": "Sénégal", "kit": { "primary": "#FFFFFF", "secondary": "#00853F", "text": "#00853F" } },
+      { "id": "irak", "name": "Irak", "kit": { "primary": "#007A3D", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "norvege", "name": "Norvège", "kit": { "primary": "#EF2B2D", "secondary": "#002868", "text": "#FFFFFF" } }
+    ],
+    "J": [
+      { "id": "argentine", "name": "Argentine", "kit": { "primary": "#75AADB", "secondary": "#FFFFFF", "text": "#1A1A1A" } },
+      { "id": "algerie", "name": "Algérie", "kit": { "primary": "#FFFFFF", "secondary": "#006233", "text": "#006233" } },
+      { "id": "autriche", "name": "Autriche", "kit": { "primary": "#ED2939", "secondary": "#FFFFFF", "text": "#FFFFFF" } },
+      { "id": "jordanie", "name": "Jordanie", "kit": { "primary": "#FFFFFF", "secondary": "#CE1126", "text": "#1A1A1A" } }
+    ],
+    "K": [
+      { "id": "portugal", "name": "Portugal", "kit": { "primary": "#C8102E", "secondary": "#046A38", "text": "#FFFFFF" } },
+      { "id": "rd-congo", "name": "RD Congo", "kit": { "primary": "#007FFF", "secondary": "#CE1021", "text": "#FFFFFF" } },
+      { "id": "ouzbekistan", "name": "Ouzbékistan", "kit": { "primary": "#FFFFFF", "secondary": "#0099B5", "text": "#0099B5" } },
+      { "id": "colombie", "name": "Colombie", "kit": { "primary": "#FCD116", "secondary": "#003893", "text": "#1A1A1A" } }
+    ],
+    "L": [
+      { "id": "angleterre", "name": "Angleterre", "kit": { "primary": "#FFFFFF", "secondary": "#1F2742", "text": "#1F2742" } },
+      { "id": "croatie", "name": "Croatie", "kit": { "primary": "#FFFFFF", "secondary": "#FF0000", "text": "#1A1A1A" } },
+      { "id": "ghana", "name": "Ghana", "kit": { "primary": "#FFFFFF", "secondary": "#000000", "text": "#000000" } },
+      { "id": "panama", "name": "Panama", "kit": { "primary": "#D21034", "secondary": "#FFFFFF", "text": "#FFFFFF" } }
+    ]
+  }
+}
