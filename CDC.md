@@ -286,9 +286,9 @@ Relevée sur radarfoot.fr (accueil + hub Coupe du Monde) le 10 juin 2026. Tokens
 
 ### 5.2 Typographie
 
-- Titres et UI : sans-serif grotesque moderne (rendu type Inter / Geist), graisses 600-800 pour les titres, interlettrage légèrement serré sur les gros titres.
-- Horaires, comptes à rebours, données chiffrées : monospace (rendu type JetBrains Mono / Geist Mono) - c'est une signature forte du site (ex "22h 50m 42s", "jeu. 11 juin · 21:00"), à reprendre pour les %, notes et stats.
-- Au build : vérifier les `font-family` exactes dans le CSS du site et utiliser les mêmes (Google Fonts ou fallback proche).
+- Titres et UI : **Geist** (confirmé le 11 juin via inspection du site live), graisses 600-800 pour les titres, interlettrage légèrement serré sur les gros titres.
+- Horaires, comptes à rebours, données chiffrées : monospace, vraisemblablement **Geist Mono** (signature forte du site, ex "22h 50m 42s") - à confirmer dans les CSS extraits (`radar-footprint/extraction/*/css/`), à reprendre pour les %, notes et stats.
+- Les CSS complets du site sont extraits en local dans `radar-footprint/extraction/` : source de vérité pour tous les tokens.
 
 ### 5.3 Composants et conventions observés
 

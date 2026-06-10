@@ -103,7 +103,7 @@ Chaque feature : But / Insertion / Données / Definition of done. Détails compo
 
 ## 4. Séquencement de la journée (full autonomie)
 
-Phase 0 (20 min) : lire CONTEXT/CDC/PLAN. Inspecter ce que Lovable a produit cette nuit (le cas échéant) : si bon, capitaliser ; si moyen, refactorer sans état d'âme. Récupérer le HTML/CSS précis de radarfoot.fr/coupe-du-monde-2026 et de la home (web_fetch + inspection). Lancer EN PARALLÈLE les sous-agents données (phase D).
+Phase 0 (20 min) : lire CONTEXT/CDC/PLAN. Inspecter ce que Lovable a produit cette nuit (le cas échéant) : si bon, capitaliser ; si moyen, refactorer sans état d'âme. **Le HTML/CSS rendu des deux pages clés est DÉJÀ extrait** (11 juin 00h30, via le navigateur de Guillaume) dans `radar-footprint/extraction/` : `coupe-du-monde-2026/` et `home/`, chacun avec index.html standalone visualisable (scripts retirés, assets absolutisés vers radarfoot.fr) + les 2 CSS du site en local. Police confirmée : **Geist** (chiffres vraisemblablement Geist Mono, à vérifier dans le CSS extrait). C'est la matière première de la V2 : partir de ce HTML, le recomposer en hub. Lancer EN PARALLÈLE les sous-agents données (phase D).
 
 Phase 1 (matin) : F1 shell + F2 Aujourd'hui + F3 calendrier. Point de contrôle : side-by-side page actuelle vs V2, la V2 doit gagner nettement tout en restant "du Radarfoot".
 
