@@ -1,4 +1,6 @@
-# CONTEXT - état du projet au 10 juin 2026, 23h30 (J-1 du Mondial)
+# CONTEXT - état du projet au 11 juin 2026, 00h15 (jour J du Mondial)
+
+**PIVOT MAJEUR (10 juin 23h50)** : le produit n'est plus un outil standalone mais la **proposition de V2 de radarfoot.fr/coupe-du-monde-2026** - sa page, reprise et largement améliorée, transformée en hub avec sidebar latérale. Proposition de valeur : "la ressource ultime pour suivre la Coupe du Monde". Tout est orchestré dans `PLAN-BATAILLE.md` (architecture, mini-CDC par feature, séquencement full autonomie). Le reste de ce document décrit l'état antérieur, toujours valide pour les données et la DA.
 
 Journal de bord cross-sessions. À lire en PREMIER par toute nouvelle session (Claude ou humain).
 
