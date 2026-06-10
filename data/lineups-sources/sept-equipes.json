@@ -1,0 +1,138 @@
+{
+  "collectedAt": "2026-06-10",
+  "teams": [
+    {
+      "id": "senegal", "coach": "Pape Thiaw", "formation": "4-3-3",
+      "lineup": [
+        {"name":"Édouard Mendy","position":"GK","detail":"gardien","club":"Al-Ahli","number":16},
+        {"name":"Krépin Diatta","position":"DF","detail":"latéral droit","club":"AS Monaco","number":15},
+        {"name":"Mamadou Sarr","position":"DF","detail":"central","club":"Chelsea","number":2},
+        {"name":"Moussa Niakhaté","position":"DF","detail":"central","club":"Olympique Lyonnais","number":19},
+        {"name":"El Hadji Malick Diouf","position":"DF","detail":"latéral gauche","club":"West Ham United","number":25},
+        {"name":"Idrissa Gana Gueye","position":"MF","detail":"milieu défensif","club":"Everton","number":null},
+        {"name":"Pape Matar Sarr","position":"MF","detail":"relayeur","club":"Tottenham Hotspur","number":null},
+        {"name":"Habib Diarra","position":"MF","detail":"relayeur","club":"Sunderland","number":21},
+        {"name":"Ismaïla Sarr","position":"FW","detail":"ailier droit","club":"Crystal Palace","number":null},
+        {"name":"Nicolas Jackson","position":"FW","detail":"avant-centre","club":"Bayern Munich","number":null},
+        {"name":"Sadio Mané","position":"FW","detail":"ailier gauche, capitaine","club":"Al-Nassr","number":10}
+      ],
+      "bench": [{"name":"Iliman Ndiaye","position":"FW"},{"name":"Chérif Ndiaye","position":"FW"},{"name":"Lamine Camara","position":"MF"},{"name":"Pathé Ciss","position":"MF"},{"name":"Pape Gueye","position":"MF"},{"name":"Kalidou Koulibaly","position":"DF"},{"name":"Yehvann Diouf","position":"GK"}],
+      "notes": "Milieu incertain : contre l'Arabie Saoudite (9 juin) Thiaw a titularisé Camara, Ciss et l'attaque Mané-I.Ndiaye-C.Ndiaye. Entrée le 16 juin contre la France.",
+      "sources": [{"label":"Mediapronos - effectif Sénégal","url":"https://mediapronos.com/effectif-senegal-coupe-du-monde-2026/","date":"2026-06-01"},{"label":"SeneNews - onze vs Arabie Saoudite","url":"https://www.senenews.com/actualites/notification/senegal-arabie-saoudite-decouvrez-le-onze-depart-des-lions-du-senegal_589098.html","date":"2026-06-09"}]
+    },
+    {
+      "id": "argentine", "coach": "Lionel Scaloni", "formation": "4-3-3",
+      "lineup": [
+        {"name":"Emiliano Martínez","position":"GK","detail":"gardien","club":"Aston Villa"},
+        {"name":"Nahuel Molina","position":"DF","detail":"latéral droit","club":"Atlético Madrid"},
+        {"name":"Cristian Romero","position":"DF","detail":"central","club":"Tottenham Hotspur"},
+        {"name":"Lisandro Martínez","position":"DF","detail":"central","club":"Manchester United"},
+        {"name":"Nicolás Tagliafico","position":"DF","detail":"latéral gauche","club":"Olympique Lyonnais"},
+        {"name":"Rodrigo De Paul","position":"MF","detail":"relayeur","club":"Inter Miami"},
+        {"name":"Enzo Fernández","position":"MF","detail":"axial","club":"Chelsea"},
+        {"name":"Alexis Mac Allister","position":"MF","detail":"relayeur","club":"Liverpool"},
+        {"name":"Lionel Messi","position":"FW","detail":"ailier droit, capitaine","club":"Inter Miami"},
+        {"name":"Lautaro Martínez","position":"FW","detail":"avant-centre","club":"Inter Milan"},
+        {"name":"Julián Álvarez","position":"FW","detail":"attaquant gauche","club":"Atlético Madrid"}
+      ],
+      "bench": [{"name":"Gerónimo Rulli","position":"GK"},{"name":"Nicolás Otamendi","position":"DF"},{"name":"Leandro Paredes","position":"MF"},{"name":"Thiago Almada","position":"MF"},{"name":"Nico Paz","position":"MF"},{"name":"Alejandro Garnacho","position":"FW"},{"name":"Franco Mastantuono","position":"FW"}],
+      "notes": "Incertitude Messi (blessé le 25 mai, Scaloni rassurant le 26). Lo Celso et Carboni forfaits. Premier match groupe J vs Algérie.",
+      "sources": [{"label":"Mediapronos - effectif Argentine","url":"https://mediapronos.com/effectif-argentine-coupe-du-monde-2026/","date":"2026-06-10"}]
+    },
+    {
+      "id": "bresil", "coach": "Carlo Ancelotti", "formation": "4-2-3-1",
+      "lineup": [
+        {"name":"Alisson","position":"GK","detail":"gardien","club":"Liverpool"},
+        {"name":"Wesley","position":"DF","detail":"latéral droit (Vanderson blessé)","club":"AS Roma"},
+        {"name":"Gabriel Magalhães","position":"DF","detail":"central","club":"Arsenal"},
+        {"name":"Marquinhos","position":"DF","detail":"central","club":"Paris Saint-Germain"},
+        {"name":"Alex Sandro","position":"DF","detail":"latéral gauche","club":"Flamengo"},
+        {"name":"Bruno Guimarães","position":"MF","detail":"double pivot","club":"Newcastle United"},
+        {"name":"Casemiro","position":"MF","detail":"sentinelle","club":"Manchester United"},
+        {"name":"Raphinha","position":"FW","detail":"ailier droit","club":"FC Barcelone"},
+        {"name":"Endrick","position":"FW","detail":"axe (en forme à Lyon)","club":"Olympique Lyonnais (prêt Real Madrid)"},
+        {"name":"Vinícius Júnior","position":"FW","detail":"ailier gauche","club":"Real Madrid"},
+        {"name":"Matheus Cunha","position":"FW","detail":"avant-centre","club":"Manchester United"}
+      ],
+      "bench": [{"name":"Neymar","position":"FW"},{"name":"Lucas Paquetá","position":"MF"},{"name":"Gabriel Martinelli","position":"FW"},{"name":"Bremer","position":"DF"},{"name":"Danilo","position":"DF"}],
+      "notes": "Rodrygo forfait, Estevao absent (cuisse). Variante 4-3-3 avec Danilo et Paquetá circule. Neymar dans les 26 mais joker de luxe. Groupe C.",
+      "sources": [{"label":"Mediapronos - effectif Brésil","url":"https://mediapronos.com/effectif-bresil-coupe-du-monde-2026/","date":"2026-06-10"},{"label":"Goal - Brazil squad","url":"https://www.goal.com/en-us/lists/brazil-squad-world-cup-2026/blt08d5bff83176ff6a","date":"2026-05-19"}]
+    },
+    {
+      "id": "angleterre", "coach": "Thomas Tuchel", "formation": "4-2-3-1",
+      "lineup": [
+        {"name":"Jordan Pickford","position":"GK","detail":"gardien","club":"Everton"},
+        {"name":"Reece James","position":"DF","detail":"latéral droit","club":"Chelsea"},
+        {"name":"Ezri Konsa","position":"DF","detail":"central","club":"Aston Villa"},
+        {"name":"Marc Guéhi","position":"DF","detail":"central (à City depuis janvier 2026)","club":"Manchester City"},
+        {"name":"Nico O'Reilly","position":"DF","detail":"latéral gauche","club":"Manchester City"},
+        {"name":"Declan Rice","position":"MF","detail":"milieu défensif","club":"Arsenal"},
+        {"name":"Elliot Anderson","position":"MF","detail":"axial","club":"Nottingham Forest"},
+        {"name":"Bukayo Saka","position":"FW","detail":"ailier droit","club":"Arsenal"},
+        {"name":"Jude Bellingham","position":"MF","detail":"n°10 (concurrence Rogers)","club":"Real Madrid"},
+        {"name":"Marcus Rashford","position":"FW","detail":"ailier gauche","club":"FC Barcelone"},
+        {"name":"Harry Kane","position":"FW","detail":"avant-centre, capitaine (61 buts 2025-26)","club":"Bayern Munich"}
+      ],
+      "bench": [{"name":"John Stones","position":"DF"},{"name":"Jordan Henderson","position":"MF"},{"name":"Kobbie Mainoo","position":"MF"},{"name":"Morgan Rogers","position":"MF"},{"name":"Eberechi Eze","position":"MF"},{"name":"Anthony Gordon","position":"FW"},{"name":"Ollie Watkins","position":"FW"}],
+      "notes": "Bellingham pas garanti en 10, Tuchel apprécie Rogers. Absences : Foden, Palmer, Maguire, Alexander-Arnold. Entrée le 17 juin vs Croatie (groupe L).",
+      "sources": [{"label":"Racing Post - England predicted XI vs Croatia","url":"https://www.racingpost.com/sport/football-tips/world-cup-2026/englands-predicted-starting-line-up-for-world-cup-opener-against-croatia-a5tEW1B5yRkW/","date":"2026-06"},{"label":"FourFourTwo - England squad","url":"https://www.fourfourtwo.com/features/england-world-cup-2026-squad-thomas-tuchel-roster-line-up-xi-final-uk","date":"2026-05-22"},{"label":"Oddschecker - lineup odds","url":"https://www.oddschecker.com/insight/football/20260610-england-world-cup-2026-lineup-odds-who-starts-vs-croatia","date":"2026-06-10"}]
+    },
+    {
+      "id": "espagne", "coach": "Luis de la Fuente", "formation": "4-3-3",
+      "lineup": [
+        {"name":"Unai Simón","position":"GK","detail":"gardien","club":"Athletic Club"},
+        {"name":"Marcos Llorente","position":"DF","detail":"latéral droit","club":"Atlético Madrid"},
+        {"name":"Pau Cubarsí","position":"DF","detail":"central","club":"FC Barcelone"},
+        {"name":"Aymeric Laporte","position":"DF","detail":"central","club":"Al-Nassr"},
+        {"name":"Marc Cucurella","position":"DF","detail":"latéral gauche","club":"Chelsea"},
+        {"name":"Rodri","position":"MF","detail":"sentinelle, Ballon d'Or 2024","club":"Manchester City"},
+        {"name":"Pedri","position":"MF","detail":"relayeur","club":"FC Barcelone"},
+        {"name":"Dani Olmo","position":"MF","detail":"milieu offensif","club":"FC Barcelone"},
+        {"name":"Lamine Yamal","position":"FW","detail":"ailier droit","club":"FC Barcelone","age":18},
+        {"name":"Mikel Oyarzabal","position":"FW","detail":"avant-centre","club":"Real Sociedad"},
+        {"name":"Nico Williams","position":"FW","detail":"ailier gauche","club":"Athletic Club"}
+      ],
+      "bench": [{"name":"David Raya","position":"GK"},{"name":"Pedro Porro","position":"DF"},{"name":"Alejandro Grimaldo","position":"DF"},{"name":"Martín Zubimendi","position":"MF"},{"name":"Fabián Ruiz","position":"MF"},{"name":"Gavi","position":"MF"},{"name":"Mikel Merino","position":"MF"},{"name":"Ferran Torres","position":"FW"}],
+      "notes": "Grandissime favorite (17% de titre selon Opta). Concurrences : avant-centre (Oyarzabal/Torres) et gardien (Raya pousse Simón). Yamal et N. Williams incertains après Espagne-Pérou (presse du 9 juin). Groupe H.",
+      "sources": [{"label":"Planète GE - liste Espagne","url":"https://www.planetegrandesecoles.com/liste-espagne-mondial-2026","date":"2026-05"},{"label":"Mediapronos - effectif Espagne","url":"https://mediapronos.com/effectif-espagne-coupe-du-monde-2026/","date":"2026-06-05"},{"label":"RTBF - Espagne favorite","url":"https://www.rtbf.be/article/coupe-du-monde-2026-l-espagne-de-lamine-yamal-grandissime-favorite-pour-le-meilleur-et-pour-le-pire-11738119","date":"2026-06"}]
+    },
+    {
+      "id": "mexique", "coach": "Javier Aguirre", "formation": "4-3-3",
+      "lineup": [
+        {"name":"Raúl Rangel","position":"GK","detail":"gardien"},
+        {"name":"Jorge Sánchez","position":"DF","detail":"latéral droit"},
+        {"name":"César Montes","position":"DF","detail":"central"},
+        {"name":"Johan Vásquez","position":"DF","detail":"central"},
+        {"name":"Jesús Gallardo","position":"DF","detail":"latéral gauche"},
+        {"name":"Edson Álvarez","position":"MF","detail":"milieu défensif"},
+        {"name":"Brian Gutiérrez","position":"MF","detail":"relayeur"},
+        {"name":"Erik Lira","position":"MF","detail":"relayeur"},
+        {"name":"Roberto Alvarado","position":"FW","detail":"ailier"},
+        {"name":"Julián Quiñones","position":"FW","detail":"ailier"},
+        {"name":"Raúl Jiménez","position":"FW","detail":"avant-centre"}
+      ],
+      "bench": [{"name":"Guillermo Ochoa","position":"GK"},{"name":"Santiago Giménez","position":"FW"},{"name":"Alexis Vega","position":"FW"},{"name":"Obed Vargas","position":"MF"}],
+      "notes": "Ouverture le 11 juin vs Afrique du Sud à l'Estadio Azteca. Milieu incertain (variante Pineda/Fidalgo/Vega chez AfricaFoot). Ochoa : 6e Coupe du monde. 8 matchs sans défaite.",
+      "sources": [{"label":"Dico du Sport - compos probables Mexique-AfSud","url":"https://dicodusport.fr/blog/mexique-vs-afrique-du-sud-les-compositions-probables-coupe-du-monde-2026/","date":"2026-06-10"},{"label":"AfricaFoot - compos probables","url":"https://africafoot.com/mexique-afrique-du-sud-les-compos-probables-avant-le-choc/","date":"2026-06-09"},{"label":"Sports Mole - preview","url":"https://www.sportsmole.co.uk/football/mexico/world-cup-2026/preview/mexico-vs-south-africa-prediction-team-news-lineups_598869.html","date":"2026-06-10"}]
+    },
+    {
+      "id": "afrique-du-sud", "coach": "Hugo Broos", "formation": "4-2-3-1",
+      "lineup": [
+        {"name":"Ronwen Williams","position":"GK","detail":"gardien, capitaine"},
+        {"name":"Khuliso Mudau","position":"DF","detail":"latéral droit"},
+        {"name":"Mbekezeli Mbokazi","position":"DF","detail":"central"},
+        {"name":"Ime Okon","position":"DF","detail":"central"},
+        {"name":"Aubrey Modiba","position":"DF","detail":"latéral gauche"},
+        {"name":"Teboho Mokoena","position":"MF","detail":"double pivot"},
+        {"name":"Sphephelo Sithole","position":"MF","detail":"double pivot"},
+        {"name":"Oswin Appollis","position":"MF","detail":"ailier droit"},
+        {"name":"Themba Zwane","position":"MF","detail":"meneur"},
+        {"name":"Relebohile Mofokeng","position":"MF","detail":"ailier gauche"},
+        {"name":"Lyle Foster","position":"FW","detail":"avant-centre"}
+      ],
+      "bench": [{"name":"Nkosinathi Sibisi","position":"DF"},{"name":"Khulumani Ndamane","position":"DF"}],
+      "notes": "Charnière débattue : Mbokazi-Okon (Dico du Sport) vs Sibisi-Ndamane (AfricaFoot). 0-0 vs Nicaragua le 29 mai, 1-1 vs Jamaïque samedi.",
+      "sources": [{"label":"Dico du Sport - compos probables","url":"https://dicodusport.fr/blog/mexique-vs-afrique-du-sud-les-compositions-probables-coupe-du-monde-2026/","date":"2026-06-10"},{"label":"AfricaFoot - compos probables","url":"https://africafoot.com/mexique-afrique-du-sud-les-compos-probables-avant-le-choc/","date":"2026-06-09"}]
+    }
+  ]
+}

@@ -9,7 +9,7 @@ Tu vas construire "Onzes du Mondial 2026", un hub interactif des compositions pr
 ## Mise en route
 
 1. Récupère le token GitHub dans mon Notion : page "Journal des sessions (historique)", section "Informations techniques persistantes". REGLE ABSOLUE : ce token ne doit jamais apparaître dans un fichier commité, le repo est public.
-2. Clone `onzes-mondial-2026` depuis mon compte GitHub. Lis ENTIEREMENT `CDC.md` avant d'écrire la moindre ligne de code. C'est le document de référence : périmètre, modèle de données, charte graphique, méthodos de calcul, plan d'implémentation. `data/equipes.json` contient le seed des 48 équipes.
+2. Clone `onzes-mondial-2026` depuis mon compte GitHub. Lis D'ABORD `CONTEXT.md` (état du projet, données déjà collectées, répartition Claude/Lovable, repo produit = `ProjetCelsius/radar-footprint`), puis `CDC.md` ENTIEREMENT avant d'écrire la moindre ligne de code. C'est le document de référence : périmètre, modèle de données, charte graphique, méthodos de calcul, plan d'implémentation. `data/equipes.json` contient le seed des 48 équipes.
 3. Visite radarfoot.fr et radarfoot.fr/coupe-du-monde-2026 pour t'imprégner de la DA réelle, et recale les tokens de la section 5 du CDC sur le CSS live si tu constates un écart.
 
 ## Règles d'exécution

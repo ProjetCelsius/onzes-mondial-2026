@@ -1,0 +1,56 @@
+{
+  "id": "france",
+  "coach": "Didier Deschamps",
+  "collectedAt": "2026-06-10",
+  "squad": [
+    {"name":"Samba","fullName":"Brice Samba","number":1,"position":"GK (gardien)","club":"Stade Rennais","age":32,"caps":4,"intGoals":0},
+    {"name":"Maignan","fullName":"Mike Maignan","number":16,"position":"GK (gardien)","club":"AC Milan","age":30,"caps":38,"intGoals":0},
+    {"name":"Risser","fullName":"Robin Risser","number":23,"position":"GK (gardien)","club":"RC Lens","age":21,"caps":0,"intGoals":0},
+    {"name":"Gusto","fullName":"Malo Gusto","number":2,"position":"DF (latéral droit)","club":"Chelsea FC","age":23,"caps":9,"intGoals":0},
+    {"name":"Digne","fullName":"Lucas Digne","number":3,"position":"DF (latéral gauche)","club":"Aston Villa","age":32,"caps":56,"intGoals":0},
+    {"name":"Upamecano","fullName":"Dayot Upamecano","number":4,"position":"DF (défenseur central)","club":"Bayern Munich","age":27,"caps":36,"intGoals":2},
+    {"name":"Koundé","fullName":"Jules Koundé","number":5,"position":"DF (latéral droit)","club":"FC Barcelone","age":27,"caps":46,"intGoals":0},
+    {"name":"Konaté","fullName":"Ibrahima Konaté","number":15,"position":"DF (défenseur central)","club":"Liverpool FC","age":27,"caps":27,"intGoals":0},
+    {"name":"Saliba","fullName":"William Saliba","number":17,"position":"DF (défenseur central)","club":"Arsenal FC","age":25,"caps":31,"intGoals":0},
+    {"name":"T. Hernandez","fullName":"Théo Hernandez","number":19,"position":"DF (latéral gauche)","club":"Al-Hilal FC","age":28,"caps":42,"intGoals":2},
+    {"name":"L. Hernandez","fullName":"Lucas Hernandez","number":21,"position":"DF (latéral gauche/central)","club":"Paris Saint-Germain","age":30,"caps":41,"intGoals":0},
+    {"name":"Lacroix","fullName":"Maxence Lacroix","number":26,"position":"DF (défenseur central)","club":"Crystal Palace","age":26,"caps":2,"intGoals":0},
+    {"name":"Koné","fullName":"Manu Koné","number":6,"position":"MF (milieu)","club":"AS Roma","age":25,"caps":12,"intGoals":0},
+    {"name":"Tchouaméni","fullName":"Aurélien Tchouaméni","number":8,"position":"MF (milieu défensif)","club":"Real Madrid","age":26,"caps":44,"intGoals":3},
+    {"name":"Kanté","fullName":"N'Golo Kanté","number":13,"position":"MF (milieu)","club":"Fenerbahçe SK","age":35,"caps":67,"intGoals":2},
+    {"name":"Rabiot","fullName":"Adrien Rabiot","number":14,"position":"MF (milieu)","club":"AC Milan","age":31,"caps":57,"intGoals":7},
+    {"name":"Zaïre-Emery","fullName":"Warren Zaïre-Emery","number":18,"position":"MF (milieu)","club":"Paris Saint-Germain","age":20,"caps":10,"intGoals":1},
+    {"name":"Dembélé","fullName":"Ousmane Dembélé","number":7,"position":"FW (attaquant, Ballon d'Or 2025)","club":"Paris Saint-Germain","age":29,"caps":58,"intGoals":7},
+    {"name":"M. Thuram","fullName":"Marcus Thuram","number":9,"position":"FW (avant-centre)","club":"Inter Milan","age":28,"caps":33,"intGoals":3},
+    {"name":"Mbappé","fullName":"Kylian Mbappé","number":10,"position":"FW (attaquant, capitaine)","club":"Real Madrid","age":27,"caps":96,"intGoals":56},
+    {"name":"Olise","fullName":"Michael Olise","number":11,"position":"FW (ailier)","club":"Bayern Munich","age":24,"caps":15,"intGoals":4},
+    {"name":"Barcola","fullName":"Bradley Barcola","number":12,"position":"FW (ailier)","club":"Paris Saint-Germain","age":23,"caps":16,"intGoals":3},
+    {"name":"Doué","fullName":"Désiré Doué","number":20,"position":"FW (ailier/offensif)","club":"Paris Saint-Germain","age":21,"caps":6,"intGoals":2},
+    {"name":"Mateta","fullName":"Jean-Philippe Mateta","number":22,"position":"FW (avant-centre)","club":"Crystal Palace","age":28,"caps":3,"intGoals":2},
+    {"name":"Cherki","fullName":"Rayan Cherki","number":24,"position":"FW (meneur/offensif)","club":"Manchester City","age":22,"caps":5,"intGoals":1},
+    {"name":"Akliouche","fullName":"Maghnes Akliouche","number":25,"position":"FW (ailier/offensif polyvalent)","club":"AS Monaco","age":23,"caps":7,"intGoals":1}
+  ],
+  "probableLineups": [
+    {"source":"Pronor","url":"https://www.pronor.fr/france-senegal-composition-probable/","date":"2026-06-02","formation":"4-3-3","players":["Maignan","Gusto","Upamecano","Konaté","T. Hernandez","Tchouaméni","Rabiot","Koné","Dembélé","Barcola","Mbappé"]},
+    {"source":"MediaPronos","url":"https://mediapronos.com/pronostic-france-senegal-coupe-du-monde-2026/","date":"2026-05-30","formation":"4-2-3-1","players":["Maignan","Koundé","Konaté","Upamecano","T. Hernandez","Koné","Rabiot","Mbappé","Cherki","Olise","Dembélé"]},
+    {"source":"Steinertriples (Pierre Menjot)","url":"https://www.steinertriple-sport.fr/blog/prono-france-senegal","date":"2026-06-02","formation":"4-3-3","players":["Maignan","Koundé","Saliba","Upamecano","T. Hernandez","Tchouaméni","Zaïre-Emery","Rabiot","Dembélé","Mbappé","Olise"]}
+  ],
+  "injuries": [
+    {"player":"Jules Koundé","status":"Sorti sur blessure (gêne musculaire) à la mi-temps de France-Irlande du Nord (3-1) le 8 juin, remplacé par Gusto ; pas d'inquiétude majeure selon L'Équipe mais entraînement de jeudi à Boston à surveiller","source":"Foot Mercato citant L'Équipe, 10/06/2026"},
+    {"player":"Hugo Ekitiké","status":"Forfait : blessé, non retenu dans la liste des 26","source":"Wikipédia / Eurosport 14/05/2026"},
+    {"player":"Lucas Chevalier","status":"Non retenu : blessé et sans match depuis janvier au PSG","source":"Eurosport 14/05/2026"}
+  ],
+  "notes": "Débats : animation offensive (Dembélé en pointe en 4-2-3-1 avec Mbappé à gauche, vs Mbappé en pointe en 4-3-3), arrière droit (Koundé vs Gusto, post-blessure du 8 juin), charnière (Saliba vs Konaté-Upamecano), milieu (Tchouaméni + Rabiot avec Koné ou Zaïre-Emery, option Kanté). Stats arrêtées au 14 mai 2026 (annonce de la liste). Théo Hernandez à Al-Hilal selon FFF/Wikipédia.",
+  "sources": [
+    {"label":"FFF - Les 26 Bleus pour le Mondial 2026","url":"https://www.fff.fr/article/16790-les-26-bleus-pour-le-mondial-2026.html","date":"2026-05-14"},
+    {"label":"FFF - La liste pour le Mondial en stats","url":"https://www.fff.fr/article/16792-la-liste-pour-le-mondial-en-stats.html","date":"2026-05-14"},
+    {"label":"Foot Mercato - La liste des 26 (clubs)","url":"https://www.footmercato.net/a2223853301613593431-coupe-du-monde-2026-la-liste-des-26-de-lequipe-de-france","date":"2026-05-14"},
+    {"label":"Footpack - Les numéros de maillots des Bleus","url":"https://www.footpack.fr/236581-equipe-de-france-les-numeros-de-maillots-des-joueurs-pour-la-coupe-du-monde-2026","date":"2026-06-04"},
+    {"label":"Wikipédia - Équipe de France à la CdM 2026","url":"https://fr.wikipedia.org/wiki/%C3%89quipe_de_France_de_football_%C3%A0_la_Coupe_du_monde_2026","date":"2026-06-08"},
+    {"label":"Pronor - France vs Sénégal compo probable","url":"https://www.pronor.fr/france-senegal-composition-probable/","date":"2026-06-02"},
+    {"label":"MediaPronos - Pronostic France Sénégal","url":"https://mediapronos.com/pronostic-france-senegal-coupe-du-monde-2026/","date":"2026-05-30"},
+    {"label":"Steinertriples - Prono France vs Sénégal","url":"https://www.steinertriple-sport.fr/blog/prono-france-senegal","date":"2026-06-02"},
+    {"label":"Foot Mercato - Koundé sorti sur blessure","url":"https://www.footmercato.net/a5936651091481947582-edf-jules-kounde-sorti-sur-blessure-contre-lirlande-du-nord","date":"2026-06-10"},
+    {"label":"Eurosport - Liste des 26 Bleus","url":"https://www.eurosport.fr/football/coupe-du-monde/2026/equipe-de-france-liste-des-26-bleus-de-didier-deschamps-nos-26-pour-la-coupe-du-monde_sto23299287/story.shtml","date":"2026-05-14"}
+  ]
+}
