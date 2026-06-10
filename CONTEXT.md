@@ -33,6 +33,7 @@ Le produit final se construit DANS `radar-footprint` (raccordement demandé par 
 3. **Analyse tactique par équipe** : 2-3 phrases (style de jeu, pressing, transitions) + forces/faiblesses listées. Certaines métriques objectives, d'autres subjectives assumées (badge "avis de la rédac").
 4. **Base de données interne propre** de toutes les équipes et joueurs, bien consignée : c'est `src/data/mondial/` (master dans onzes-mondial-2026/data/), schéma du CDC section 4.3. Toute feature future se nourrit de cette base unique.
 5. Visuels maillots : petits maillots SVG qui ressemblent aux vrais (couleurs dans equipes.json, à affiner avec rayures/motifs si simple).
+6. **Vision "Hub ultime"** (10 juin, tard) : une seule page de référence façon widget Google CdM (onglets Matchs/Équipes/Joueurs/Classements/Bracket, sidebar sticky). + probas de victoire par match-up (Elo gratuit), bracket visuel interactif. Backlog complet de 30 features classées par style : voir `FEATURES.md`.
 
 ## Niveau de qualité attendu (rappel)
 
