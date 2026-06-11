@@ -1,4 +1,22 @@
-# CONTEXT - état du projet au 11 juin 2026, 00h15 (jour J du Mondial)
+# CONTEXT - état du projet au 11 juin 2026, fin de session QA+features (jour J du Mondial)
+
+## SESSION DU 11 JUIN (journée) - missions A-F exécutées sur radar-footprint
+
+Six commits poussés sur `radar-footprint` (8913caf → e5fb806), page maître `public/coupe-du-monde-2026.html` rebuiltée à chaque commit, smoke test DOM vert (28 checks).
+
+**Livré :**
+- **A. QA zéro bug** : `QA-CHECKLIST.md` + `scripts/qa-smoke.mjs` (harnais linkedom : exécution, 7 onglets jamais vides, zéro null/undefined/NaN visible, liens internes résolus, intégrité données). Bugs corrigés : page blanche sur hash inconnu (le 2e `show()` non validé), teaser/record de capes/dates en dur → tout calculé.
+- **B. Probas Elo** : `src/data/mondial/elo.json` 48/48 (eloratings.net via World.tsv + en.teams.tsv, script `scripts/fetch-elo.mjs`, 2 fetchs, daté 11/06). Moteur : We logistique + nul N=0,26×(1−|2We−1|) + bonus hôte +100 (MX/US/CA chez eux), somme garantie 100. Jauges sur les Duels à la une, onglet Stats refondu : tableau 48 triable (Elo/nom/groupe/rang), percentile en barre, stat-strip plateau (médiane 1780, groupe I = plus relevé !), section Méthodo complète. Sources : `src/data/SOURCES.md`.
+- **C. Calendrier + timeline** : `scripts/parse-calendrier.mjs` → `calendrier.json` (11 matchs : les 10 de la page extraite + France-Sénégal du hero, stade/diffuseurs null assumés). Timeline interactive en tête d'Aujourd'hui : chips par jour (compteur de matchs, "auj."), heure FR mono, jauges Elo par match, stat-strip du jour (choc Elo, favori le plus net, J-x Bleus), liens match radarfoot + duel. Badge sidebar J-x/JOUR J/LIVE calculé.
+- **D. Bracket officiel** : croisements FIFA vérifiés (matchs 73-88, règlement via Wikipédia knockout stage, consulté 11/06) → `bracket.json` + arbre complet 16es→finale+petite finale, ordre des colonnes = adjacence officielle de l'arbre, slots "3e" avec groupes possibles (Annexe C, 495 scénarios — rien d'inventé), chemins du groupe I surlignés (1I→M77, 2I→M78). Repli slots neutres si données absentes.
+- **E. Depth chart France** : toggle Terrain/Hiérarchie sur l'onglet Compos. 10 couloirs calculés depuis les 3 XI presse + banc FFF : mentions x/3 en barre, % convention, doubles postes gérés (Mbappé axe/aile gauche), rotation 0/3 en rangée grisée, tout cliquable vers la fiche joueur.
+- **F. Radar percentiles** : CONSIGNÉ (pas recalibré) — il manque caps/âges des 48 effectifs ; seuls France (26 joueurs) et Elo (48/48) sont collectés. Le percentile Elo vs plateau est lui déjà livré dans le tableau Stats. Documenté dans `src/data/SOURCES.md` + méthodo affichée. Le radar React de Lovable (src/routes/mondial.*) n'a pas été touché.
+
+**Choix tranchés :** constante de nuls 0,26 = choix de modèle documenté (pas une donnée) ; avantage hôte +100 façon eloratings.net, pays déduit du stade ; % titularisation = convention 3/3→95, 2/3→72, 1/3→45, 0/3→12 affichée partout ; périmètre calendrier = uniquement les matchs de la page extraite (esprit POC, zéro scraping au-delà) ; bracket = slots descriptifs tant que les 3es ne sont pas connus.
+
+**Reste à faire :** scores live + classements dynamiques (zéros aujourd'hui), 40 équipes light, match center par match (16 premiers), Monte Carlo (% titre), radar recalibré quand les 48 effectifs seront collectés, emblèmes en local (/public/emblems/, toujours hotlinkés), régénérer le token GitHub avant le 19/06.
+
+---
 
 **PIVOT MAJEUR (10 juin 23h50)** : le produit n'est plus un outil standalone mais la **proposition de V2 de radarfoot.fr/coupe-du-monde-2026** - sa page, reprise et largement améliorée, transformée en hub avec sidebar latérale. Proposition de valeur : "la ressource ultime pour suivre la Coupe du Monde". Tout est orchestré dans `PLAN-BATAILLE.md` (architecture, mini-CDC par feature, séquencement full autonomie). Le reste de ce document décrit l'état antérieur, toujours valide pour les données et la DA.
 
