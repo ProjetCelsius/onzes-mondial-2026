@@ -1,3 +1,28 @@
+# CONTEXT - état du projet au 11 juin 2026, fin de session "équipe 200K" (V6, soirée)
+
+## SESSION DU 11 JUIN (soirée) - audit + master plan + exécution V6 sur radar-footprint
+
+Onze commits poussés (1b36777 → a0c6d7a), page maître rebuiltée à chaque commit, smoke test étendu **86 checks TOUT VERT** (8 onglets).
+
+**Livré :**
+- **AUDIT.md** (commité) : 3 volets notés — UX 6,5/10, bugs 7/10, features 5,5/10 — constats fichier:ligne (tri "Gr." mort, "ce soir" en dur, 40 équipes culs-de-sac, zéro match center/chemin/h2h malgré données en base).
+- **MASTER-PLAN-V6.md** (commité) : 200K€ / 5 personnes fictives / 4 semaines, 6 workstreams chiffrés (A nav+DS 48K, B qui-contre-qui 52K, C probas 30K, D stats 28K, E QA 24K, F réserve 18K), chaque ligne = livrable vérifiable par smoke.
+- **E1+E4 zéro bug** : les 7 bugs de l'audit corrigés (+ offset header mobile mesuré `--v2-hdr-h` au dernier commit).
+- **A1-A4 design system** : tokens `:root` (encres/filets/typo/motion), icônes SVG mono-trait (exit emojis), transitions onglet 200ms stagger, compteurs animés (IO), `prefers-reduced-motion`, raccourcis 1-8 + hints kbd, focus-visible, purge styles inline.
+- **A5+B1+B3 navigation profonde** : routeur hash `#equipe/:id` / `#match/:id`, drawer latéral (bottom-sheet mobile) — **48/48 fiches équipe** (Elo, rang, percentile, groupe navigable, matchs+probas, XI si documenté, états honnêtes) + **match center 11/11** (jauge, face-à-face, XI côte à côte, diffuseurs). Fin des culs-de-sac. API QA `window.__v2`.
+- **A6 cmd+K** : palette sombre (équipes/joueurs/matchs/stades/onglets), accents normalisés, pertinence préfixe>mot>inclusion, aide `?`.
+- **B4 calculateur de chemin** : 96 chemins (48 × 1er/2e), adversaire le plus probable par Elo à chaque tour (résolution récursive des slots du bracket officiel), % victoire + cumul, conventions affichées. CTA depuis chaque fiche.
+- **C1-C3 Monte Carlo** : `scripts/simulate.mjs` (10 000 tournois, 3es appariés aux slots officiels par backtracking, 0 repli) → `simulations.json` : **France 11,7% de titre, favori Espagne 27,1%**. Colonnes %16es/½/titre triables, strips, méthodo affichée.
+- **D1-D3 wall joueurs** : onglet Joueurs (143 joueurs déjà en base), tri 9 colonnes, filtres texte/équipe/poste, stats croisées (top club, doyen/benjamin) ; panneau "Le XI bouge" (diff XI presse vs consensus, chips ±).
+- **B2 H2H sourcé** : `h2h.json` (Sénégal 1-0 France ouverture 2002 ; AfSud 1-1 Mexique ouverture 2010, rejouée 16 ans jour pour jour) — 2 fetchs Wikipédia datés, état honnête ailleurs.
+- **B5+D4** : hover previews desktop (tooltip riche), filtre équipe sur la timeline, stat-strips sur 100% des vues (Groupes "groupe de la mort", Actus, Équipes).
+
+**Choix tranchés :** chemin de bracket = convention "adversaire le plus probable par Elo, terrain neutre, sans nul" (affichée) ; Monte Carlo = modèle assumé (buts non modélisés, départage aléatoire, méthode affichée + SOURCES.md) ; 3e de groupe dans le chemin = conv. plus fort Elo des groupes possibles ; h2h limité aux 2 affiches phares (POC) ; wall = données existantes uniquement, nulls « — » jamais bouchés.
+
+**Reste à faire (semaine 4 du plan)** : Lighthouse mesuré + consigné, captures démo side-by-side, D5 échantillon effectifs (~70 joueurs clés top-8) si budget, A7 audit axe complet, scores live + classements dynamiques, pipeline quotidien compos (tier 1 #2), régénérer le token GitHub avant le 19/06. Les routes React Lovable (src/routes/mondial.*) n'ont pas été touchées.
+
+---
+
 # CONTEXT - état du projet au 11 juin 2026, fin de session QA+features (jour J du Mondial)
 
 ## SESSION DU 11 JUIN (journée) - missions A-F exécutées sur radar-footprint
