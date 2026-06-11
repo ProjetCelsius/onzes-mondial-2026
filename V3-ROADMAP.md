@@ -73,7 +73,65 @@ Doctrine transverse : densité mastermind (DOCTRINE-DENSITE.md), DA Radarfoot st
 - **Quoi** : un palais de commande : taper "mbap" > fiche, "FRA" > équipe, "16 juin" > matchs du jour, "azteca" > stade. Le geste power-user qui fait passer le site pour un Bloomberg du foot.
 - **Done quand** : indexe équipes + joueurs + matchs + stades, < 50ms.
 
-## Tier 3 - différenciation et viralité
+## ARBITRAGE GUILLAUME (11 juin) - à respecter strictement
+
+- Esprit POC : scraping et recherche web MINIMAUX. Match center sur les 16 premiers matchs seulement. Wall joueurs limité à ~100 joueurs. Les features gourmandes en collecte se font "à minima, sur quelques tests".
+- Le budget va dans le CODE et la QUALITÉ : zéro bug, tout interactif et cliquable, data viz partout, densité virtuose, pages imbriquées au cordeau.
+- Validées : navigation fluide, compos, page équipe dense, probas victoire, bracket interactif, depth chart, tracker troisièmes, groupes & classements (en mieux), calculateur de chemin, historique compos (à minima), match center 16 matchs.
+- Le persona : le fan de foot qui se frotte les mains d'anticipation - "qui contre qui, quelle proba, les précédents, les stats" - et qui revient plusieurs fois par jour. PAS de gadgets "FoodX" (quiz, modes TV, nostalgie : coupés).
+- Anciens tiers 3-4 REMPLACÉS ci-dessous par de l'amélioration UX/data viz pure.
+
+## Tier 3 - l'expérience fan hardcore (UX et data viz)
+
+### 14. H2H universel
+- **Quoi** : sur chaque affiche, l'historique des confrontations (ex : France-Sénégal 2002, seule rencontre en CdM) + forme des 5 derniers matchs des deux équipes en pastilles V/N/D.
+- **Done quand** : visible sur les 16 premiers matchs et dans chaque duel.
+
+### 15. Stat-strips contextuels systématiques
+- **Quoi** : CHAQUE vue (match, équipe, groupe, duel, bracket) ouvre sur 4-6 métriques mono calculées depuis la base. Jamais un écran qui démarre par du vide.
+- **Done quand** : audit des vues : 100% ont leur strip.
+
+### 16. Tableaux triables et filtrables partout
+- **Quoi** : classements, 48 équipes, joueurs : tri par Elo, âge moyen, sélections, formation ; filtre instantané. Le réflexe tableur du mastermind.
+- **Done quand** : tout tableau de plus de 6 lignes est triable.
+
+### 17. Timeline du jour interactive
+- **Quoi** : fil chronologique des matchs du jour (heure FR, probas, liens compos/match center) en tête de l'onglet Aujourd'hui. La première chose vue le matin.
+- **Done quand** : le 12 juin au réveil, les 3 matchs du jour y sont, cliquables.
+
+### 18. Hover previews (densité sans clic)
+- **Quoi** : survol d'une équipe → micro-terrain + 3 stats en tooltip riche ; survol d'un joueur → mini-fiche. Desktop only, dégradation propre mobile.
+- **Done quand** : actif sur le hub 48 équipes et les classements.
+
+### 19. Radars superposables à la demande
+- **Quoi** : n'importe quelle paire équipes ou joueurs comparable en 2 clics depuis n'importe quelle page (bouton "comparer" persistant, sélection cross-pages).
+- **Done quand** : France vs Sénégal ET Mbappé vs Mané superposables depuis leurs fiches.
+
+### 20. Percentiles visuels
+- **Quoi** : chaque stat affichée avec sa barre de percentile vs les 48 ("âge moyen 27.4 : plus jeune que 38% du plateau"). Transforme un chiffre brut en jugement instantané.
+- **Done quand** : appliqué aux stat-strips équipe.
+
+## Tier 4 - le polish virtuose
+
+### 21. Navigation imbriquée parfaite + cmd+K
+- **Quoi** : breadcrumbs, retours contextuels, deep links sur tout (équipe, joueur, match, onglet), recherche universelle cmd+K (équipes, joueurs, matchs).
+- **Done quand** : n'importe quel écran est atteignable en moins de 3 actions et partageable par URL.
+
+### 22. Micro-interactions
+- **Quoi** : stagger d'apparition du terrain (gardien puis lignes), transitions d'onglets 200ms, compteurs animés à l'entrée dans le viewport, hover states partout. prefers-reduced-motion respecté.
+- **Done quand** : aucun changement d'état sec à l'écran.
+
+### 23. États intelligents (jamais de vide)
+- **Quoi** : une équipe sans compo montre quand même effectif partiel, Elo, calendrier, groupe - toujours la donnée la plus proche disponible, jamais un "bientôt" sec.
+- **Done quand** : les 40 équipes light ont une page utile.
+
+### 24. Performance et solidité
+- **Quoi** : navigation < 100ms, données lazy par onglet, images lazy, Lighthouse mobile >= 90, zéro erreur console.
+- **Done quand** : mesuré et consigné.
+
+### 25. QA systématique zéro-bug
+- **Quoi** : checklist par page (overflow, mobile, liens morts, null visibles, contrastes), passée avant chaque push. Le bug du banc qui déborde ne doit plus JAMAIS arriver.
+- **Done quand** : checklist dans le repo, verte sur toutes les pages.
 
 ### 14. Centre stades & logistique
 - **Quoi** : carte interactive des 16 stades, matchs par stade, fuseaux, météo (la chaleur est LE sujet), distances entre villes - le pain point logistique de cette CdM à 3 pays.
